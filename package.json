@@ -1,0 +1,23 @@
+{
+    "name": "bubbles.",
+    "description": "The Bubbles Math Theme.",
+    "version": "0.1",
+    "engines": {
+        "ghost-api": "v3"
+    },
+    "license": "MIT",
+    "author": {
+        "email": "hello@bubble.ee"
+    },
+    "config": {
+        "posts_per_page": 6,
+        "image_sizes": {
+            "s": {
+                "width": 450
+            },
+            "l": {
+                "width": 1920
+            }
+        }
+    }
+}
