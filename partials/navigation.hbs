@@ -1,5 +1,14 @@
-<nav>
-    {{#foreach navigation}}
-    <a href="{{url}}" >{{label}}</a>
-    {{/foreach}}
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient"
+    style="background-color: #0156A8;">
+    <div class="container"><a class="navbar-brand logo" href="#">Bubbles.ee</a><button data-toggle="collapse"
+            class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav navbar-nav ml-auto">
+                {{#foreach navigation}}
+                <li class="nav-item" role="presentation"><a class="nav-link" href="{{url}}">{{label}}</a></li>
+                {{/foreach}}
+            </ul>
+        </div>
+    </div>
 </nav>
