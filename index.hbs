@@ -6,16 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{@site.title}} - {{@site.description}}</title>
-
     {{ghost_head}}
-
     <link rel="stylesheet" href="/assets/css/style.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
 </head>
 
 <body>
     {{navigation}}
-
     <main class="page projets-page">
         <section class="portfolio-block project-no-images">
             <div class="container">
@@ -27,26 +24,27 @@
                         <ul class="list-unstyled sidebar">
                             <li><a href="{{@site.url}}">Kõik</a></li>
                             {{#get "tags" limit="all"}}
-                                {{#foreach tags}}
-                                    <li {{#if current}} class="active"{{/if}}><a href="{{url}}">{{name}}</a></li>
-                                {{/foreach}}
+                            {{#foreach tags}}
+                            <li {{#if current}} class="active" {{/if}}><a href="{{url}}">{{name}}</a></li>
+                            {{/foreach}}
                             {{/get}}
                         </ul>
                     </div>
                     <div class="col">
                         <div class="formulas">
                             {{#foreach posts limit="all"}}
-                                <div class="col">
-                                    <div class="project-card-no-image">
-                                        <h3>{{title}}</h3>
-                                        <a class="btn btn-outline-primary btn-sm" role="button" href="{{url}}">Näita rohkem</a>
-                                        {{#primary_tag}}
-                                            <div class="tags">
-                                                <a href="{{url}}">{{name}}</a>
-                                            </div>
-                                        {{/primary_tag}}
+                            <div class="col">
+                                <div class="project-card-no-image">
+                                    <h3>{{title}}</h3>
+                                    <a class="btn btn-outline-primary btn-sm" role="button" href="{{url}}">Näita
+                                        rohkem</a>
+                                    {{#primary_tag}}
+                                    <div class="tags">
+                                        <a href="{{url}}">{{name}}</a>
                                     </div>
+                                    {{/primary_tag}}
                                 </div>
+                            </div>
                             {{/foreach}}
                         </div>
                     </div>
@@ -54,13 +52,10 @@
             </div>
         </section>
     </main>
-
     <footer class="page-footer">
         {{navigation type="secondary"}}
     </footer>
-
     {{ghost_foot}}
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="/assets/js/pace.min.js"></script>
     <script src="/assets/js/magic.min.js"></script>
