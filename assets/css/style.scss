@@ -155,6 +155,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
             height: 100%;
             position: relative;
             .tags {
+                position: absolute;
                 text-transform: uppercase;
                 float: right;
                 font-size: .75em;
@@ -181,7 +182,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
                 display: inline-block;
                 font-weight: 400;
                 color: #0ea0ff;
-                border-color: #0ea0ff;
                 text-align: center;
                 vertical-align: middle;
                 -webkit-user-select: none;
@@ -189,7 +189,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
                 -ms-user-select: none;
                 user-select: none;
                 background-color: transparent;
-                border: 1px solid transparent;
+                border: 1px solid #0ea0ff;
                 padding: .25rem .8rem;
                 font-size: .875rem;
                 line-height: 1.5;
