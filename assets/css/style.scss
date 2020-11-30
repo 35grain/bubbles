@@ -16,6 +16,10 @@ body {
     .container {
         max-width: 75%;
         margin: 0 auto;
+
+        @media (max-width: 1200px) {
+            max-width: 98%;
+        }
     }
 
     a:hover {
@@ -286,6 +290,14 @@ li {
 }
 
 .portfolio-block.project {
+    .formula {
+        padding: 0 45px;
+
+        @media (max-width: 1200px) {
+            padding: 5px;
+        }
+    }
+
     .info { 
         width: 75%;
     
@@ -295,6 +307,11 @@ li {
 
         .inline-equation {
             font-size: larger;
+        }
+
+        p {
+            font-size: 1.1em;
+            font-weight: 300;
         }
     }
 
@@ -329,10 +346,6 @@ li {
     }
 }
 
-.portfolio-block.project .info p {
-    font-size: 1.1em;
-    font-weight: 300;
-}
 p {
     margin-top: 0;
     margin-bottom: 1rem;
