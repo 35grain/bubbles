@@ -20,10 +20,6 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
 }
 
-.bg-white {
-    background-color: #0156A8 !important;
-}
-
 .gradient {
     background: #0156A8;
 }
@@ -33,11 +29,6 @@ body {
         padding-top: 1.2rem;
         padding-bottom: 1.2rem;
     }
-}
-
-.gradient {
-    background: linear-gradient(120deg, #7f70f5, #0ea0ff);
-    color: #fff;
 }
 
 .fixed-bottom,
@@ -50,10 +41,6 @@ body {
 
 .fixed-top {
     top: 0;
-}
-
-.bg-white {
-    background-color: #fff !important;
 }
 
 @media (min-width: 992px) {
