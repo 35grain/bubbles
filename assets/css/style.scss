@@ -129,7 +129,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 .formulas {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, 33.33%);
 
     .col {
         margin: 10px;
