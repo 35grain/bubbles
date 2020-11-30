@@ -36,26 +36,7 @@ body {
     top: 0;
 }
 
-@media (min-width: 992px) {
-    .navbar-expand-lg {
-        -ms-flex-flow: row nowrap;
-        flex-flow: row nowrap;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
-    }
-}
-
-.navbar,
-.navbar>.container,
-.navbar>.container-fluid {
-    width: 100%;
-    align-items: center;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
 .navbar {
-    position: relative;
     padding: .5rem 1rem;
 
     a {
