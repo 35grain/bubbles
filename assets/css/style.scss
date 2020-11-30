@@ -141,6 +141,34 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
     .col {
         margin: 10px;
+        height: 250px;
+
+        .project-card-no-image {
+            box-shadow: 0 3px 10px rgba(0,0,0,.5);
+            padding: 35px;
+            border-top: 4px solid #0156A8;
+            margin-bottom: 30px;
+            background-color: #0e1012;
+            height: 100%;
+            .tags {
+                text-transform: uppercase;
+                float: right;
+                font-size: .75em;
+                margin-top: 7px;
+                a {
+                    color: #979797;
+                }
+            }
+            h3 {
+                font-size: 1.3em;
+                margin-bottom: 20px;
+            }
+            h4 {
+                font-size: 1em;
+                opacity: .6;
+                margin-bottom: 20px;
+            }
+        }
     }
 }
 
@@ -161,34 +189,6 @@ address, dl, ol, ul {
     -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%;
-}
-
-.project-card-no-image {
-    box-shadow: 0 3px 10px rgba(0,0,0,.5);
-    padding: 35px;
-    border-top: 4px solid #0156A8;
-    margin-bottom: 30px;
-    background-color: #0e1012;
-    min-width: 300px;
-    height: 200px;
-    .tags {
-        text-transform: uppercase;
-        float: right;
-        font-size: .75em;
-        margin-top: 7px;
-        a {
-            color: #979797;
-        }
-    }
-    h3 {
-        font-size: 1.3em;
-        margin-bottom: 20px;
-    }
-    h4 {
-        font-size: 1em;
-        opacity: .6;
-        margin-bottom: 20px;
-    }
 }
 
 .h3, h3 {
