@@ -1,4 +1,4 @@
-Resources used:
+Kasutatud teegid ja tarkvara:
 
 - Ghost CMS: https://ghost.org/
 - PACE Loading magic: https://codebyzach.github.io/pace/
