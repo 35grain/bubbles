@@ -43,7 +43,7 @@
                 <div class="more-projects">
                     <h3 class="text-center">Sarnased valemid</h3>
                     <div class="row gallery">
-                        {{#get "posts" filter="primary_tag:{{primary_tag.slug}}" limit="3"}}
+                        {{#get "posts" filter="primary_tag:{{primary_tag.slug}}" limit="3" include="tags"}}
                             {{#foreach posts}}
                             <div class="col">
                                 <div class="project-card-no-image">
