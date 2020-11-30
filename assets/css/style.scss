@@ -280,6 +280,14 @@ li {
     text-align: center!important;
 }
 
+.portfolio-block.project .meta .tags {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: #fff;
+}
+
 .portfolio-block.project .meta .tags .meta-heading {
     color: #0156A8;
     margin-bottom: 5px;
