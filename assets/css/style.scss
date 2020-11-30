@@ -180,7 +180,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
                 position: absolute;
                 display: inline-block;
                 font-weight: 400;
-                color: #212529;
+                color: #0ea0ff;
+                border-color: #0ea0ff;
                 text-align: center;
                 vertical-align: middle;
                 -webkit-user-select: none;
@@ -189,21 +190,11 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
                 user-select: none;
                 background-color: transparent;
                 border: 1px solid transparent;
-                padding: .375rem 1rem;
-                font-size: 1rem;
-                line-height: 1.5;
-                border-radius: 2em;
-                transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-            }
-            .btn-group-sm>.btn, .btn-sm {
                 padding: .25rem .8rem;
                 font-size: .875rem;
                 line-height: 1.5;
                 border-radius: 2em;
-            }
-            .btn-outline-primary {
-                color: #0ea0ff;
-                border-color: #0ea0ff;
+                transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
             }
         }
     }
