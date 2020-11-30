@@ -291,3 +291,9 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     -ms-flex-align: center;
     align-items: center;
 }
+
+li {
+    .active {
+        text-decoration: underline;
+    }
+}
