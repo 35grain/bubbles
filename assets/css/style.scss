@@ -33,6 +33,11 @@ body {
 
 .gradient {
     background: #0156A8;
+
+    &a:hover {
+        opacity: .75!important;
+        text-decoration: none;
+    }
 }
 
 .fixed-bottom,
