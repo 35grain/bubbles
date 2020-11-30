@@ -22,7 +22,9 @@
                 <div class="heading">
                     <h2>{{title}}</h2>
                 </div>
-                {{custom_excerpt}}
+                {{#if custom_excerpt}}
+                    <script type="math/tex">{{custom_excerpt}}</script>
+                {{/if}}
                 <div class="row">
                     <div class="col">
                         <h3>Kasutus</h3>
