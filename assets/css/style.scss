@@ -16,8 +16,19 @@ body {
     }
 }
 
+.portfolio-navbar.navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+
 .gradient {
     background: #0156A8;
+}
+
+@media (min-width: 576px) {
+    .navbar {
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
 }
 
 .fixed-bottom,
@@ -30,6 +41,15 @@ body {
 
 .fixed-top {
     top: 0;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
 }
 
 .navbar,
