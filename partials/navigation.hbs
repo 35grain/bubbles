@@ -1,3 +1,13 @@
+{{#if isSecondary}}
+<div class="container">
+        <div class="links">
+            {{#foreach navigation}}
+            <a href="{{url}}" style="color: rgb(255,255,255);">{{label}}</a>
+            {{/foreach}}
+        </div>
+</div>
+{{/if}}
+
 <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient"
     style="background-color: #0156A8;">
     <div class="container"><a class="navbar-brand logo" href="#">Bubbles.ee</a><button data-toggle="collapse"
@@ -12,13 +22,3 @@
         </div>
     </div>
 </nav>
-
-{{#if isSecondary}}
-<div class="container">
-        <div class="links">
-            {{#foreach navigation}}
-            <a href="{{url}}" style="color: rgb(255,255,255);">{{label}}</a>
-            {{/foreach}}
-        </div>
-</div>
-{{/if}}
