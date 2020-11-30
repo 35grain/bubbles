@@ -37,7 +37,7 @@ body {
     background: #0156A8;
 
     & a:hover {
-        opacity: .75!important;
+        opacity: .75 !important;
         text-decoration: none;
     }
 }
@@ -80,37 +80,58 @@ body {
 }
 
 @media (min-width: 576px) {
-.portfolio-navbar.fixed-top+.page {
-    padding-top: 5.5rem;
-}
+    .portfolio-navbar.fixed-top+.page {
+        padding-top: 5.5rem;
+    }
 }
 
 .portfolio-navbar.fixed-top+.page {
     padding-top: 62px;
 }
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
     display: block;
 }
 
 @media (min-width: 768px) {
-.portfolio-block {
-    padding-bottom: 100px;
-    padding-top: 100px;
-}
+    .portfolio-block {
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
 }
 
 .portfolio-block {
     padding-bottom: 60px;
     padding-top: 60px;
 }
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
     display: block;
 }
 
 @media (min-width: 768px) {
-.portfolio-block .heading {
-    margin-bottom: 80px;
-}}
+    .portfolio-block .heading {
+        margin-bottom: 80px;
+    }
+}
 
 .portfolio-block .heading {
     margin-bottom: 50px;
@@ -118,9 +139,11 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 @media (min-width: 768px) {
-.portfolio-block .heading h2 {
-    font-size: 2rem;
-}}
+    .portfolio-block .heading h2 {
+        font-size: 2rem;
+    }
+}
+
 .portfolio-block .heading h2 {
     font-weight: 700;
     font-size: 1.4rem;
@@ -151,12 +174,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
         max-height: 250px;
 
         .project-card-no-image {
-            box-shadow: 0 3px 10px rgba(0,0,0,.5);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, .5);
             padding: 35px;
             border-top: 4px solid #0156A8;
             background-color: #0e1012;
             height: 100%;
             position: relative;
+
             .tags {
                 position: absolute;
                 text-transform: uppercase;
@@ -165,15 +189,18 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
                 margin-top: 7px;
                 bottom: 40px;
                 right: 35px;
+
                 a {
                     color: #979797;
                 }
             }
+
             h3 {
                 font-size: 1.3em;
                 margin-bottom: 20px;
                 height: 135px;
             }
+
             h4 {
                 font-size: 1em;
                 opacity: .6;
@@ -198,7 +225,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
                 font-size: .875rem;
                 line-height: 1.5;
                 border-radius: 2em;
-                transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 
                 &:hover {
                     color: #fff;
@@ -211,15 +238,23 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     }
 }
 
-.list-inline, .list-unstyled {
+.list-inline,
+.list-unstyled {
     padding-left: 0;
     list-style: none;
     margin: 10px;
 }
-dl, ol, ul {
+
+dl,
+ol,
+ul {
     margin-top: 0;
 }
-address, dl, ol, ul {
+
+address,
+dl,
+ol,
+ul {
     margin-bottom: 1rem;
 }
 
@@ -231,20 +266,40 @@ address, dl, ol, ul {
     max-width: 100%;
 }
 
-.h3, h3 {
+.h3,
+h3 {
     font-size: 1.75rem;
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-top: 0;
     margin-bottom: .5rem;
 }
 
-.h4, h4 {
+.h4,
+h4 {
     font-size: 1.5rem;
 }
 
@@ -254,7 +309,16 @@ a {
     background-color: transparent;
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
     display: block;
 }
 
@@ -267,6 +331,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     left: 0;
     right: 0;
     position: absolute;
+
     .links a {
         display: inline-block;
         color: #fff;
@@ -290,13 +355,15 @@ li {
     font-weight: 700;
     margin-bottom: 60px;
 }
+
 .portfolio-block.project h3 {
     font-weight: 700;
     font-size: 1.4em;
     margin-bottom: 20px;
 }
+
 .text-center {
-    text-align: center!important;
+    text-align: center !important;
 }
 
 .portfolio-block.project {
@@ -308,9 +375,9 @@ li {
         }
     }
 
-    .info { 
+    .info {
         width: 75%;
-    
+
         @media (max-width: 1200px) {
             width: 100%;
         }
@@ -333,7 +400,7 @@ li {
     .meta {
         width: 25%;
         position: relative;
-    
+
         @media (max-width: 1200px) {
             width: 100%;
             margin-top: 20px;
@@ -351,7 +418,7 @@ li {
             @media (max-width: 1200px) {
                 position: relative;
             }
-        
+
             a {
                 color: #fff;
             }
