@@ -15,6 +15,40 @@
 <body>
     {{navigation}}
 
+    <main class="page projets-page">
+        <section class="portfolio-block project-no-images">
+            <div class="container">
+                <div class="heading">
+                    <h2>Valemid</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 col-md-3 col-lg-2 col-xl-2 offset-xl-0" style="width: 189px;">
+                        <ul class="list-unstyled sidebar">
+                            <li><a class="active" href="#">Kõik</a></li>
+                            <li><a href="#">Integraal</a></li>
+                            <li><a href="#">Maatriks</a></li>
+                            <li><a href="#">Tuletis</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            {{#foreach}}
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="project-card-no-image">
+                                        <h3>{{title}}</h3>
+                                        <h4>{{custom_excerpt}}</h4><a class="btn btn-outline-primary btn-sm" role="button" href="{{url}}">Näita rohkem</a>
+                                        {{#foreach tags}}
+                                            <div class="tags"><a href="{{url}}">{{name}}</a></div>
+                                        {{/foreach}}
+                                    </div>
+                                </div>
+                            {{/foreach}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     {{ghost_foot}}
 
