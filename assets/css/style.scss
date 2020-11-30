@@ -16,19 +16,8 @@ body {
     }
 }
 
-.portfolio-navbar.navbar {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
-}
-
 .gradient {
     background: #0156A8;
-}
-
-@media (min-width: 576px) {
-    .navbar {
-        padding-top: 1.2rem;
-        padding-bottom: 1.2rem;
-    }
 }
 
 .fixed-bottom,
@@ -41,15 +30,6 @@ body {
 
 .fixed-top {
     top: 0;
-}
-
-@media (min-width: 992px) {
-    .navbar-expand-lg {
-        -ms-flex-flow: row nowrap;
-        flex-flow: row nowrap;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
-    }
 }
 
 .navbar,
@@ -271,25 +251,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
         color: #282b2d;
         font-size: 18px;
     }
-}
-
-@media (min-width: 992px) {
-.navbar-expand-lg .navbar-collapse {
-    display: -ms-flexbox!important;
-    display: flex!important;
-    -ms-flex-preferred-size: auto;
-    flex-basis: auto;
-}}
-.collapse:not(.show) {
-    display: none;
-}
-.navbar-collapse {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -ms-flex-align: center;
-    align-items: center;
 }
 
 li {
