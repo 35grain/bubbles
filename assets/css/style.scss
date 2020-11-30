@@ -145,6 +145,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
     .col {
         margin: 10px;
+        max-height: 250px;
 
         .project-card-no-image {
             box-shadow: 0 3px 10px rgba(0,0,0,.5);
