@@ -48,10 +48,12 @@ body {
 
     .navbar-brand.logo {
         float: left;
+        padding: 15px;
     }
 
     .nav {
         float: right;
+        padding: 15px;
     }
 }
 
@@ -230,11 +232,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 .page-footer {
-    padding-top: 35px;
+    padding: 25px;
     background-color: #0e1012;
     border-top: 1px solid #0156A8;
     text-align: center;
-    padding-bottom: 20px;
     bottom: 0;
     left: 0;
     right: 0;
