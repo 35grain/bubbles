@@ -61,6 +61,14 @@ body {
     a {
         color: white;
     }
+
+    .navbar-brand.logo {
+        float: left;
+    }
+
+    .nav {
+        float: right;
+    }
 }
 
 @media (min-width: 576px) {
