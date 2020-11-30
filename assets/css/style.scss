@@ -290,6 +290,10 @@ li {
     -ms-flex-direction: column;
     flex-direction: column;
     color: #fff;
+
+    a {
+        color: #fff;
+    }
 }
 
 .portfolio-block.project .meta .tags .meta-heading {
