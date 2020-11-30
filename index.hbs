@@ -24,7 +24,7 @@
                 <div class="row">
                     <div class="col-sm-3 col-md-3 col-lg-2 col-xl-2 offset-xl-0" style="width: 189px;">
                         <ul class="list-unstyled sidebar">
-                            <li><a class="active" href="#">Kõik</a></li>
+                            <li><a href="{{@site.url}}">Kõik</a></li>
                             {{#get "tags" limit="all"}}
                                 {{#foreach tags}}
                                     <li><a href="{{url}}">{{name}}</a></li>

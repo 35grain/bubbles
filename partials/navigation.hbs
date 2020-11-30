@@ -6,9 +6,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="nav navbar-nav ml-auto">
                 {{#foreach navigation}}
-                <li class="nav-item" role="presentation"><a class="nav-link" href="{{url}}">{{label}}</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{url}}">{{label}}</a></li>
                 {{/foreach}}
             </ul>
         </div>
     </div>
 </nav>
+
+{{#if isSecondary}}
+<div class="container">
+        <div class="links">
+            {{#foreach navigation}}
+            <a href="{{url}}" style="color: rgb(255,255,255);">{{label}}</a>
+            {{/foreach}}
+        </div>
+</div>
+{{/if}}
