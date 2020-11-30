@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="{{@site.lang}}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{@site.title}}</title>
+
+    {{ghost_head}}
+
+    <link rel="stylesheet" href="/assets/css/style.min.css">
+</head>
+
+<body>
+    {{navigation}}
+
+    <main class="page project-page">
+        <section class="portfolio-block project">
+            <div class="container">
+                <div class="heading">
+                    <h2>{{title}}</h2>
+                </div><img class="d-xl-flex mx-auto justify-content-xl-center" style="width: 301px;" src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg">
+                <div class="row">
+                    <div class="col-12 col-md-6 offset-md-1 info">
+                        <h3>Kasutus</h3>
+                        {{content}}
+                    </div>
+                    <div class="col-12 col-md-3 offset-md-1 meta">
+                        <div class="tags">
+                            <span class="meta-heading">Sildid</span>
+                            {{#foreach tags}}
+                                <a href="{{url}}">{{name}}</a>
+                            {{/foreach}}  
+
+                            <span class="meta-heading">Lisatud</span>
+                            <span>{{date published_at timeago="true"}}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="more-projects">
+                    <h3 class="text-center">Sarnased valemid</h3>
+                    <div class="row gallery">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="project-card-no-image">
+                                <h3>Lorem Ipsum</h3>
+                                <h4>Lorem ipsum dolor sit amet</h4><a class="btn btn-outline-primary btn-sm" role="button" href="#">Näita rohkem</a>
+                                <div class="tags"><a href="#">Integraal</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="project-card-no-image">
+                                <h3>Lorem Ipsum</h3>
+                                <h4>Lorem ipsum dolor sit amet</h4><a class="btn btn-outline-primary btn-sm" role="button" href="#">Näita rohkem</a>
+                                <div class="tags"><a href="#">Integraal</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="project-card-no-image">
+                                <h3>Lorem Ipsum</h3>
+                                <h4>Lorem ipsum dolor sit amet</h4><a class="btn btn-outline-primary btn-sm" role="button" href="#">Näita rohkem</a>
+                                <div class="tags"><a href="#">integraal</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        {{navigation type="secondary"}}
+    </footer>
+
+    {{ghost_foot}}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/assets/js/pace.min.js"></script>
+</body>
+
+</html>
