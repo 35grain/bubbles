@@ -153,11 +153,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
             margin-bottom: 30px;
             background-color: #0e1012;
             height: 100%;
+            position: relative;
             .tags {
                 text-transform: uppercase;
                 float: right;
                 font-size: .75em;
                 margin-top: 7px;
+                bottom: 20px;
                 a {
                     color: #979797;
                 }
@@ -171,6 +173,36 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
                 font-size: 1em;
                 opacity: .6;
                 margin-bottom: 20px;
+            }
+
+            .btn {
+                bottom: 20px;
+                display: inline-block;
+                font-weight: 400;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: transparent;
+                border: 1px solid transparent;
+                padding: .375rem 1rem;
+                font-size: 1rem;
+                line-height: 1.5;
+                border-radius: 2em;
+                transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            }
+            .btn-group-sm>.btn, .btn-sm {
+                padding: .25rem .8rem;
+                font-size: .875rem;
+                line-height: 1.5;
+                border-radius: 2em;
+            }
+            .btn-outline-primary {
+                color: #0ea0ff;
+                border-color: #0ea0ff;
             }
         }
     }
