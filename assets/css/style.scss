@@ -131,6 +131,14 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: grid;
     grid-template-columns: repeat(auto-fill, 33.33%);
 
+    @media (max-width: 1800px) {
+        grid-template-columns: repeat(auto-fill, 50%);
+    }
+
+    @media (max-width: 1200px) {
+        grid-template-columns: repeat(auto-fill, 100%);
+    }
+
     .col {
         margin: 10px;
     }
