@@ -138,15 +138,15 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-
-    .col {
-        margin: 10px;
-    }
 }
 
 .formulas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
+    .col {
+        margin: 10px;
+    }
 }
 
 .list-inline, .list-unstyled {
