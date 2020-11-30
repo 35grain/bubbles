@@ -294,7 +294,7 @@ li {
         padding: 0 45px;
 
         @media (max-width: 1200px) {
-            padding: 5px;
+            padding: 15px;
         }
     }
 
@@ -332,6 +332,10 @@ li {
             color: #fff;
             right: 0;
             position: absolute;
+
+            @media (max-width: 1200px) {
+                position: relative;
+            }
         
             a {
                 color: #fff;
