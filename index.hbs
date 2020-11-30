@@ -40,11 +40,11 @@
                                     <div class="project-card-no-image">
                                         <h3>{{title}}</h3>
                                         <a class="btn btn-outline-primary btn-sm" role="button" href="{{url}}">Näita rohkem</a>
-                                        {{#foreach tags}}
+                                        {{#primary_tag}}
                                             <div class="tags">
                                                 <a href="{{url}}">{{name}}</a>
                                             </div>
-                                        {{/foreach}}
+                                        {{/primary_tag}}
                                     </div>
                                 </div>
                             {{/foreach}}
