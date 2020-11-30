@@ -40,11 +40,11 @@
                         </div>
                     </div>
                 </div>
+                {{#get "posts" filter="primary_tag:{{primary_tag.slug}}+id:-{{id}}" limit="3" include="tags" as |related|}}
                 <div class="more-projects">
                     <h3 class="text-center">Sarnased valemid</h3>
                     <div class="formulas">
-                        {{#get "posts" filter="primary_tag:{{primary_tag.slug}}+id:-{{id}}" limit="3" include="tags"}}
-                            {{#foreach posts}}
+                            {{#foreach related}}
                             <div class="col">
                                 <div class="project-card-no-image">
                                     <h3>{{title}}</h3>
@@ -57,9 +57,9 @@
                                 </div>
                             </div>
                             {{/foreach}}
-                        {{/get}}
                     </div>
                 </div>
+                {{/get}}
                 {{/post}}
             </div>
         </section>
