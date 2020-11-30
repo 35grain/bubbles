@@ -43,27 +43,21 @@
                 <div class="more-projects">
                     <h3 class="text-center">Sarnased valemid</h3>
                     <div class="row gallery">
-                        <div class="col-md-6 col-lg-4">
-                            <div class="project-card-no-image">
-                                <h3>Lorem Ipsum</h3>
-                                <h4>Lorem ipsum dolor sit amet</h4><a class="btn btn-outline-primary btn-sm" role="button" href="#">Näita rohkem</a>
-                                <div class="tags"><a href="#">Integraal</a></div>
+                        {{#get "posts" limit="3" filter="tags:[{{post.tags}}]+id:-{{post.id}}" include="tags" as |related|}}
+                            {{#foreach tags}}
+                            <div class="col">
+                                <div class="project-card-no-image">
+                                    <h3>{{title}}</h3>
+                                    <h4>Lorem ipsum dolor sit amet</h4><a class="btn btn-outline-primary btn-sm" role="button" href="{{url}}">Näita rohkem</a>
+                                    <div class="tags">
+                                        {{#foreach tags}}
+                                            <a href="{{url}}">{{name}}</a>
+                                        {{/foreach}}
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="project-card-no-image">
-                                <h3>Lorem Ipsum</h3>
-                                <h4>Lorem ipsum dolor sit amet</h4><a class="btn btn-outline-primary btn-sm" role="button" href="#">Näita rohkem</a>
-                                <div class="tags"><a href="#">Integraal</a></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="project-card-no-image">
-                                <h3>Lorem Ipsum</h3>
-                                <h4>Lorem ipsum dolor sit amet</h4><a class="btn btn-outline-primary btn-sm" role="button" href="#">Näita rohkem</a>
-                                <div class="tags"><a href="#">integraal</a></div>
-                            </div>
-                        </div>
+                            {{/foreach}}
+                        {{/get}}
                     </div>
                 </div>
             </div>
