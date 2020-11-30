@@ -1,3 +1,7 @@
-Lae templiidi failid siia ja kõik toimib!
+Resources used:
 
-Lisainfo templiidi ülesehituse kohta: https://ghost.org/docs/api/v3/handlebars-themes/
+- Ghost CMS: https://ghost.org/
+- PACE Loading magic: https://codebyzach.github.io/pace/
+- Mathpix Snip: https://mathpix.com/
+- KaTeX math typesetting: https://katex.org/
+- SASS CSS preprocessor: https://sass-lang.com/
