@@ -9,6 +9,9 @@ body {
     color: #fff;
     text-align: left;
     background-color: #1A1C20;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 50px;
 
     .container {
         max-width: 75%;
@@ -232,6 +235,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     border-top: 1px solid #0156A8;
     text-align: center;
     padding-bottom: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
     .links, .page-footer a {
         display: inline-block;
     }
