@@ -6,3 +6,4 @@ Kasutatud teegid ja tarkvara:
 - Mathpix Snip: https://mathpix.com/
 - KaTeX math typesetting: https://katex.org/
 - SASS CSS preprocessor: https://sass-lang.com/
+- normalize.css: https://github.com/necolas/normalize.css
