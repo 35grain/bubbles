@@ -1,7 +1,6 @@
 Kasutatud teegid ja tarkvara:
 
 - Ghost CMS (sisuhaldussüsteem): https://ghost.org/
-- jQuery JS library (teek JS kirjutamise hõlbustamiseks): https://jquery.com/
 - PACE Loading bar (kuvatud laadimisriba veebi sirvimisel): https://codebyzach.github.io/pace/
 - Mathpix Snip (valemite sisestamise hõlbustamiseks kasutatud rakendus): https://mathpix.com/
 - KaTeX math typesetting (valemite kuvamiseks LaTeX koodist): https://katex.org/
