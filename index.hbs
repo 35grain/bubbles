@@ -34,16 +34,7 @@
                         <div class="formulas">
                             {{#foreach posts limit="all"}}
                             <div class="col">
-                                <div class="project-card-no-image">
-                                    <h3>{{title}}</h3>
-                                    <a class="btn btn-outline-primary btn-sm" role="button" href="{{url}}">Näita
-                                        rohkem</a>
-                                    {{#primary_tag}}
-                                    <div class="tags">
-                                        <a href="{{url}}">{{name}}</a>
-                                    </div>
-                                    {{/primary_tag}}
-                                </div>
+                                {{> "project-card"}}
                             </div>
                             {{/foreach}}
                         </div>
