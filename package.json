@@ -1,6 +1,7 @@
 {
     "name": "bubbles-ghost-theme",
     "description": "The Bubbles Math Theme.",
+    "keywords": ["ghost-theme"],
     "version": "1.3.1",
     "license": "MIT",
     "author": {
